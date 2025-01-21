@@ -1,0 +1,15 @@
+
+
+
+POST http://localhost:3000/api/user/adduser       
+Content-Type: application/json
+
+{
+    "user_name": "Rohit Baniya",
+    "user_email": "rohitbaniya@gmail.com",
+    "user_dob": "2002-02-22",
+    "gender": "male"
+}
+
+# GET http://localhost:3000/api/user/viewuser 
+# content-type: application/json
